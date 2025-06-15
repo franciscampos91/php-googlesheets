@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        
+        
+        <form action="gravar.php" method="post">
+
+            <h3>Nova capital</h3>
+            
+            <div class="form-row">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" required>
+            </div>
+
+            <div class="form-row">
+                <label for="uf">UF</label>
+                <input type="text" name="uf" maxlength="2" required>
+            </div>
+
+            <div class="form-row">
+                <label for="habitantes">Habitantes</label>
+                <input type="text" name="habitantes" required>
+            </div>
+
+            <div class="form-row">
+                <label for="fundacao">Fundação (ano)</label>
+                <input type="text" name="fundacao" required>
+            </div>
+
+            
+            <div class="form-row">
+                <label for="fundacao">Extensão</label>
+                <input type="text" name="extensao" required>
+            </div>
+
+            <div class="form-row">
+                <label for="latitude">Latitude</label>
+                <input type="text" name="latitude" required>
+            </div>
+
+            <div class="form-row">
+                <label for="longitude">Longitude</label>
+                <input type="text" name="longitude" required>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Gravar</button>
+                <button type="button" onclick="history.back()" class="btn-voltar">Voltar</button>
+            </div>
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
