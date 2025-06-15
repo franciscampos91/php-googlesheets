@@ -1,5 +1,11 @@
+.gitignore
+composer.json
+composer.lock
+credentials.json
+
 # Ignora o arquivo de credenciais da conta de serviço do Google
 credentials.json
+
 
 # Pasta de dependências gerenciada pelo Composer
 /vendor/
